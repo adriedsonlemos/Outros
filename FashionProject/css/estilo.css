@@ -1,0 +1,140 @@
+body {
+    font-family: tahoma, arial, sans-serif;
+    padding: 0;
+    margin: o;    
+}
+
+/* centraliza a página */
+#principal{
+    width: 1024px;
+    margin: 20px auto;
+    
+}
+/* definindo tamanho topo*/
+.header-top {
+    height: 50px;
+    background: #162028;
+    position: relative;
+}
+/* Propiedades da logo*/
+.logotipo {
+    margin: 5px 0px 0px 200px;
+}
+/* Propriedades do Menu*/
+.header-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+/* Zerar os espaços automaticos do UL*/
+.header-nav ul{
+    margin:0;
+    padding: 0;
+}
+/* definindo as configurações do menu*/
+.header-nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px 0 0;
+    padding: 15px;
+}
+/* definindo as configurações dos links*/
+.header-nav a{
+    color: #425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 5px;
+    transition: color 0.3s linear;
+}
+.header-nav a:hover{
+    color: white;
+}
+/* Configurações texto 1*/
+.portfolio {
+    padding: 50px 100px;
+    text-align: center;
+}
+/* Configurações H1*/
+.portifolio h1 {
+    font-size: 36px;
+    color: #252525;
+}
+/* Configurações do P*/
+.portifolio p{
+    font-size: 16px;
+    line-height: 2;
+    color: #555;
+}
+
+/* Configurações Imagens*/
+.gallery {
+    color: #555;
+    padding: 0 100px 50px 100px;
+    overflow: auto;
+}
+
+/* Cards da galeria*/
+.gallery-card {
+    width: 32%;
+    float: left;
+    text-align: center;
+}
+/* Titulo da Galeria*/
+.gallery-title {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 22px;
+    font-weight: bold;
+}
+/* Configurações do Sobre*/
+.about {
+    background-color: #003D52;
+    padding: 100px;
+    color: white;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position:right bottom;
+    
+}
+/* Configurações do Paragrafo do Sobre*/
+.about p{
+    line-height: 1.5;
+    width: 500px;
+}
+/* Configurações do H2 do Sobre*/
+.about h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: normal;
+}
+/* Propriedas do contato*/
+#contact {
+    margin: 50px 0;
+}
+
+/* Configurações contato*/
+#contact address {
+    color: #143f52;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Mapa*/
+.maps {
+    width: 100%;
+    height: 450px;
+    margin-top: 15px;
+}
+/* Rodapé*/
+.rodape {
+    background: #0B171F;
+    padding: 25px;
+    font-size: #6F8597;
+    letter-spacing: 5px;
+    text-align: center;
+}
